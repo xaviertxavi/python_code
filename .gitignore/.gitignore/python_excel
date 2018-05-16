@@ -1,0 +1,23 @@
+> install.packages("flextable")
+
+  There is a binary version available but the source version is later:
+          binary source needs_compilation
+flextable  0.4.0  0.4.2             FALSE
+
+installing the source package ‘flextable’
+
+trying URL 'https://cran.rstudio.com/src/contrib/flextable_0.4.2.tar.gz'
+Content type 'application/x-gzip' length 135276 bytes (132 KB)
+==================================================
+downloaded 132 KB
+
+Warning in strptime(xx, f <- "%Y-%m-%d %H:%M:%OS", tz = tz) :
+  unknown timezone 'default/Australia/Melbourne'
+* installing *source* package ‘flextable’ ...
+** package ‘flextable’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/Library/Frameworks/R.framework/Versions/3.4/Resources/library/gdtools/libs/gdtools.so':
+  dlopen(/Library/Frameworks/R.framework/Versio
